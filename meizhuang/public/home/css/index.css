@@ -1,0 +1,191 @@
+/* 通用 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 头部 */
+
+.header-nav {
+    height: auto;
+    width: 100%;
+    background:#91b9a6;
+}
+
+.navbar-nav li a {
+    color: aliceblue;
+}
+
+.nav-color {
+    background:#91b9a6;
+}
+
+.shop-car {
+    float: right;
+    height: 40px;
+    width: 20%;
+    margin-left: 10%;
+    border: 1px solid rgb(231, 222, 222);
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.shop-car-area {
+    /* display: none; */
+    position: absolute;
+    z-index: 999;
+    width: 300px;
+    height: auto;
+    background: #fff;
+    top: 40%;
+    right: 15px;
+    border: 1px solid #eee;
+}
+
+
+/* .shop-car:hover .shop-car-area {
+    display: block;
+} */
+
+.shop-car-area .shop-list {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+}
+
+
+/* 广告 */
+
+.ad-ul li {
+    height: 50px;
+}
+
+.ad-ul li:hover {
+    cursor: pointer;
+    background: rgb(204, 181, 181);
+}
+
+
+/* 精品推荐 */
+
+.best {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* footer */
+
+.footer {
+    color: #fff;
+    text-align: center;
+}
+
+.footer h5 {
+    margin-top: 30px;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.di {
+    text-align: center;
+    color: rgb(59, 54, 54);
+    line-height: 100px;
+    font-size: 16px;
+}
+
+
+/* login */
+
+.login-header {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.login-panel {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    background: #FFF;
+    margin-top: 5%;
+    right: 10%;
+}
+
+.login-panel-tit {
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.login-panel-form {
+    width: 250px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.login-panel-register {
+    height: 40px;
+    width: 200px;
+    line-height: 20px;
+    margin-left: 150px;
+}
+
+
+/* register */
+
+.register-header {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.register-panel {
+    width: 400px;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: 3%;
+    background: #fff;
+}
+
+.register-login {
+    float: right;
+}
+
+.proto {
+    width: 400px;
+    height: 400px;
+    left: 50%;
+    margin-left: -200px;
+    position: fixed;
+    top: 50%;
+    margin-top: -200px;
+}
+
+.footer {
+    height: 10%;
+    background:#91b9a6;
+}
+
+
+/* 订单页面 */
+
+.order-panel {
+    width: 600px;
+    height: auto;
+    margin: 20px auto;
+}
